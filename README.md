@@ -1,4 +1,4 @@
-# Pro_README_Generator
+# Pro_README_Gen
 
 ## Description
 

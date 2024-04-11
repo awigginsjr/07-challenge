@@ -20,7 +20,7 @@ const questions = [
       type: 'input',
       name: 'installation',
       message: 'Please input installation instructions:',
-      default: 'npm i',
+      default: 'Run `npm install` to download dependencies.',
     },
     {
       type: 'input',
@@ -36,7 +36,7 @@ const questions = [
       type: 'input',
       name: 'test',
       message: 'Please input test instructions:',
-      default: 'npm test',
+      default: 'Run test with `npm run test` .',
     },
     {
       type: 'list',
@@ -56,17 +56,37 @@ const questions = [
     },
 ];
 
-// function to write README file
+// function to write README
 function writeToFile(fileName, data) {
-  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+  try {
+    fs.writeFileSync(path.join(process.cwd(), fileName), data);
+    console.log('Creating your proREADME.md...');
+  } catch (err) {
+    console.error(err);
+    console.log('Unable to create your README');
+  }
+  // Move setTimeout outside of the try-catch block
+  //// a timeout of 3 seconds is initialized
+  setTimeout(() => {
+    console.log('proREADME.md is ready!');
+  }, 3000);
 }
+
+// function writeToFile(fileName, data) {
+//   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+//     console.log('Created your README');
+//   } catch (err) {
+//     console.log(err);
+//     console.log(`Unable to  create your README`);
+//   }
+
 // function to initialize app
 function init() {
-  console.log('Generating your README');
+  console.log('Generating your README...');
+  console.log(Date.now());
   inquirer.prompt(questions).then((inquirerResponses) => {
     writeToFile('proREADME.md', generateMarkdown({...inquirerResponses}));
   });
-
 }
 
 // Function call to initialize app

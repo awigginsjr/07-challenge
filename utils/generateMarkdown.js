@@ -42,77 +42,113 @@ function renderLicenseBadge(license) {
 // const licenseBadge = renderLicenseBadge(license);
 // console.log(licenseBadge);
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-    return license !== 'None' ? `\n* [License](#license)\n` : '';
+//
+
+function tableOfContentLicense(license) {
+  return license ? `> * [License](#license)\n` : "";
 }
 
-// switch (license) {
-//   case 'MIT':
-//     return "https://opensource.org/licenses/MIT";
-//   case 'APACHE 2.0':
-//     return "https://opensource.org/licenses/Apache-2.0";
-//   case 'GPL 3.0':
-//     return "https://www.gnu.org/licenses/gpl-3.0";
-//   case 'BSD 3':
-//     return "https://opensource.org/licenses/BSD-3-Clause";
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+// function renderLicenseLink(license) {
+//     return license !== 'None' ? `[License](#license)` : '';
 // }
 
+// // switch (license) 
+// //   case 'MIT':
+// //     return "https://opensource.org/licenses/MIT";
+// //   case 'APACHE 2.0':
+// //     return "https://opensource.org/licenses/Apache-2.0";
+// //   case 'GPL 3.0':
+// //     return "https://www.gnu.org/licenses/gpl-3.0";
+// //   case 'BSD 3':
+// //     return "https://opensource.org/licenses/BSD-3-Clause";
+// // }
+function renderLicenseLink(license) {
+  switch (license) {
+      case 'None':
+          return '';
+      case 'MIT':
+          return "https://opensource.org/licenses/MIT";
+      case 'APACHE 2.0':
+          return "https://opensource.org/licenses/Apache-2.0";
+      case 'GPL 3.0':
+          return "https://www.gnu.org/licenses/gpl-3.0";
+      case 'BSD 3':
+          return "https://opensource.org/licenses/BSD-3-Clause";
+      default:
+          return '';    
+  }
+}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'None') {
-    return `## License
+    return `## License ~
+Application License Badge is below, click on License Badge or link to navigate to License webpage.  
+${renderLicenseBadge(license)}
 
-Application will use ${license} license.`;
+${renderLicenseLink(license)}`
   }
   return '';
 }
+
+// Application will use ${license} license.`;
+//   }
+//   return '';
+// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
 
-  ## Description
+  ## Description ~
   ${data.description}
 
-  ## Screenshot
-  ![screenshot of...]
+  ## Screenshot ~
+  
+  ![screenshot](**(APP/SITE:)**)
 
-  ## Table of Contents 
-  [Installation](#installation)
+  ## Table of Contents ~
 
-  [Usage](#usage)
-  ${renderLicenseLink(data.license)}
-  [Contributing](#contributing)
+  > * [Installation](#installation)
 
-  [Tests](#tests)
+  > * [Usage](#usage)
+  
+  ${tableOfContentLicense(data.license)}
 
-  [Questions](#questions)
 
-  ## Installation
+  > * [Contributing](#contributing)
+
+  > * [Test](#test)
+
+  > * [Questions](#questions)
+
+ ## Installation ~
   ${data.installation}
 
-  ## Usage
+ ## Usage ~
   ${data.usage}
+
+
   ${renderLicenseSection(data.license)}
 
-  ## Contributing
+
+ ## Contributing ~
   ${data.contributing}
 
-  ## Tests
-  ${data.tests}
+ ## Test ~
+  ${data.test}
 
-  ## Questions
+ ## Questions ~
 
   If you have any additional questions, concerns, or would like to view more of my work, my email and GitHub is below:
 
   Email:
   ${data.email}
 
-  GH:
+  GitHub:
   [https://github.com/${data.github}](https://github.com/${data.github})
 
 `;
