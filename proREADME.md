@@ -1,8 +1,8 @@
-# Testing 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# final test license NONE
+  
 
   ## Description ~
-  Testing 
+  final test license NONE
 
   ## Screenshot ~
   
@@ -14,8 +14,7 @@
 
   > * [Usage](#usage)
   
-  > * [License](#license)
-
+  
 
 
   > * [Contributing](#contributing)
@@ -28,18 +27,14 @@
   Run `npm install` to download dependencies.
 
  ## Usage ~
-  Testing 
+  final test license NONE
 
 
-  ## License ~
-Application License Badge is below, click on License Badge or link to navigate to License webpage.  
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-https://www.gnu.org/licenses/gpl-3.0
+  
 
 
  ## Contributing ~
-  Testing
+  final test license NONE
 
  ## Test ~
   Run test with `npm run test` .
@@ -49,8 +44,8 @@ https://www.gnu.org/licenses/gpl-3.0
   If you have any additional questions, concerns, or would like to view more of my work, my email and GitHub is below:
 
   Email:
-  Testing@gmail.com
+  finaltest@gmail.com
 
   GitHub:
-  [https://github.com/Testing](https://github.com/Testing)
+  [https://github.com/finaltest](https://github.com/finaltest)
 

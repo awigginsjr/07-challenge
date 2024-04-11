@@ -1,10 +1,10 @@
-// packages needed for this application
+// packages required for this application
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// array of questions for user input
+// array of questions for user input to help build proREADME.md
 const questions = [
     {
       type: 'input',
@@ -60,31 +60,30 @@ const questions = [
 function writeToFile(fileName, data) {
   try {
     fs.writeFileSync(path.join(process.cwd(), fileName), data);
+//logs message while proREADME.md is loading to tree
     console.log('Creating your proREADME.md...');
   } catch (err) {
     console.error(err);
+// throw his message if not able to load to tree
     console.log('Unable to create your README');
   }
-  // Move setTimeout outside of the try-catch block
-  //// a timeout of 3 seconds is initialized
+
+// move setTimeout outside of the try-catch block
+// a timeout of 3 seconds is initialized
   setTimeout(() => {
     console.log('proREADME.md is ready!');
   }, 3000);
 }
 
-// function writeToFile(fileName, data) {
-//   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-//     console.log('Created your README');
-//   } catch (err) {
-//     console.log(err);
-//     console.log(`Unable to  create your README`);
-//   }
-
 // function to initialize app
 function init() {
   console.log('Generating your README...');
+
+//log date stamp
   console.log(Date.now());
   inquirer.prompt(questions).then((inquirerResponses) => {
+
+//File name will be proREADME.md
     writeToFile('proREADME.md', generateMarkdown({...inquirerResponses}));
   });
 }
