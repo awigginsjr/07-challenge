@@ -36,7 +36,7 @@ const questions = [
       type: 'input',
       name: 'test',
       message: 'Please input test instructions:',
-      default: 'Run test with `npm run test` .',
+      default: 'Navigate to the directory where your code file is located and run `node yourfile.js` in terminal.',
     },
     {
       type: 'list',

@@ -1,51 +1,58 @@
-# final test license NONE
-  
+# proREADME.Gen
 
-  ## Description ~
-  final test license NONE
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Screenshot ~
-  
-  ![screenshot](**(APP/SITE:)**)
+## Description ~
 
-  ## Table of Contents ~
+proREADME.Gen
 
-  > * [Installation](#installation)
+## Screenshot ~
 
-  > * [Usage](#usage)
-  
-  
+![screenshot](<**(APP/SITE:)**>)
 
+## Table of Contents ~
 
-  > * [Contributing](#contributing)
+> - [Installation](#installation)
 
-  > * [Test](#test)
+> - [Usage](#usage)
 
-  > * [Questions](#questions)
+> - [License](#license)
 
- ## Installation ~
-  Run `npm install` to download dependencies.
+> - [Contributing](#contributing)
 
- ## Usage ~
-  final test license NONE
+> - [Test](#test)
 
+> - [Questions](#questions)
 
-  
+## Installation ~
 
+Run `npm install` to download dependencies.
 
- ## Contributing ~
-  final test license NONE
+## Usage ~
 
- ## Test ~
-  Run test with `npm run test` .
+proREADME.Gen
 
- ## Questions ~
+## License ~
 
-  If you have any additional questions, concerns, or would like to view more of my work, my email and GitHub is below:
+Application License Badge is below, click on License Badge or link to navigate to License webpage.  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  Email:
-  finaltest@gmail.com
+https://opensource.org/licenses/MIT
 
-  GitHub:
-  [https://github.com/finaltest](https://github.com/finaltest)
+## Contributing ~
 
+proREADME.Gen
+
+## Test ~
+
+Navigate to the directory where your code file is located and run `node yourfile.js` in terminal.
+
+## Questions ~
+
+If you have any additional questions, concerns, or would like to view more of my work, my email and GitHub is below:
+
+Email:
+proreadme@gmail.com
+
+GitHub:
+[https://github.com/proreadme](https://github.com/proreadme)
