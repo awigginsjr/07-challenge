@@ -10,8 +10,8 @@ Created a command-line application that dynamically generates a professional REA
 
 ## Links
 
-[GitHub](git@github.com:awigginsjr/09-challenge-proREADME-generator.git)
+GitHub ~ [https://github.com/awigginsjr](https://github.com/awigginsjr)
 
-[Repo](https://awigginsjr.github.io/09-challenge-proREADME-generator/)
+Repository ~ [https://github.com/awigginsjr/09-challenge-proREADME-generator](https://github.com/awigginsjr/09-challenge-proREADME-generator)
 
-[Demo Link](https://drive.google.com/file/d/1xGxZytOq_Fneg9cv1YRZhOTUljZPDAoG/view)
+Demo Link ~ [https://drive.google.com/file/d/1xGxZytOq_Fneg9cv1YRZhOTUljZPDAoG/view](https://drive.google.com/file/d/1xGxZytOq_Fneg9cv1YRZhOTUljZPDAoG/view)
