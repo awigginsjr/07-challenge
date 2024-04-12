@@ -1,58 +1,57 @@
-# proREADME.Gen
+# User's project title
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ## Description ~
+  User's description of project
 
-## Description ~
+  ## Screenshot ~
+  
+  ![screenshot](**(APP/SITE:)**)
 
-proREADME.Gen
+  ## Table of Contents ~
 
-## Screenshot ~
+  > * [Installation](#installation)
 
-![screenshot](<**(APP/SITE:)**>)
+  > * [Usage](#usage)
+  
+  
+ > * [License](#license)
 
-## Table of Contents ~
 
-> - [Installation](#installation)
 
-> - [Usage](#usage)
+  > * [Contributing](#contributing)
 
-> - [License](#license)
+  > * [Test](#test)
 
-> - [Contributing](#contributing)
+  > * [Questions](#questions)
 
-> - [Test](#test)
+ ## Installation ~
+  Run `npm install` to download dependencies.
 
-> - [Questions](#questions)
+ ## Usage ~
+  User's usage information
 
-## Installation ~
 
-Run `npm install` to download dependencies.
-
-## Usage ~
-
-proREADME.Gen
-
-## License ~
-
+  ## License ~
 Application License Badge is below, click on License Badge or link to navigate to License webpage.  
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-https://opensource.org/licenses/MIT
+https://opensource.org/licenses/Apache-2.0
 
-## Contributing ~
 
-proREADME.Gen
+ ## Contributing ~
+  User's contributors and contributions
 
-## Test ~
+ ## Test ~
+  Navigate to the directory where your code file is located and run `node yourfile.js` in terminal.
 
-Navigate to the directory where your code file is located and run `node yourfile.js` in terminal.
+ ## Questions ~
 
-## Questions ~
+  If you have any additional questions, concerns, or would like to view more of my work, my email and GitHub is below:
 
-If you have any additional questions, concerns, or would like to view more of my work, my email and GitHub is below:
+  Email:
+  usersemail@gmail.com
 
-Email:
-proreadme@gmail.com
+  GitHub:
+  [https://github.com/usersgithub](https://github.com/usersgithub)
 
-GitHub:
-[https://github.com/proreadme](https://github.com/proreadme)

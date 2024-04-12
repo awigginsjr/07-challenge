@@ -6,7 +6,7 @@ Created a command-line application that dynamically generates a professional REA
 
 ## Screenshot of Application
 
-![screenshot]()
+![screenshot](/image/proREADME.mdSC.png)
 
 ## Links
 
@@ -14,4 +14,4 @@ Created a command-line application that dynamically generates a professional REA
 
 [Repo]()
 
-[Demo]()
+[Demo Link]("https://drive.google.com/file/d/1xGxZytOq_Fneg9cv1YRZhOTUljZPDAoG/preview")
