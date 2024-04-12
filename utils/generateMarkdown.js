@@ -22,20 +22,6 @@ function tableOfContentLicense(license) {
     return license !== 'None' ? `\n > * [License](#license)\n` : "";
   }
 
-// function tableOfContentLicense(license) {
-//   return license ? ` * [License](#license)\n` : "";
-// }
-
-// function tableOfContentLicense(license) {
-//   if (license !== 'None') {
-//     return "";
-//   } else {
-//     return license ? `> * [License](#license)` : "";
-//   }
-// }
-
-// TODO: Create a function that returns the license link
-// if license is none, return and empty string
 function renderLicenseLink(license) {
   switch (license) {
       case 'None':
